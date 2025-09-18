@@ -1,7 +1,7 @@
 import express from 'express'
 import { addProduct, listproduct ,removeproduct} from '../controllers/productController.js'
 import upload from '../middleware/multer.js'
-import adminAuth from '../middleware/AdminAuth.js';
+import adminAuth from '../middleware/adminAuth.js';
 let productRoutes=express.Router()
 
 productRoutes.post('/addproduct',upload.fields([
