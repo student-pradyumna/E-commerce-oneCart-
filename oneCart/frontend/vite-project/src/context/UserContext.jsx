@@ -1,7 +1,7 @@
  
 
 import React, { createContext, useContext, useEffect, useState } from 'react'
-import { authDataContext } from './authContext'
+import { authDataContext } from './AuthContext'
 import axios from 'axios'
 
 export const userDataContext = createContext()
