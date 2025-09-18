@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://e-commerce-onecart-myfrontend-h81m.onrender.com", "http://localhost:5174"],
+    origin: ["https://e-commerce-onecart-myfrontend-h81m.onrender.com", "https://e-commerce-onecart-admin-gcqm.onrender.com"],
     credentials: true,
   })
 );
