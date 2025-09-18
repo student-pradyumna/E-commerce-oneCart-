@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png"
 import google from "../assets/google.png"
 import { IoEyeOutline, IoEye } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom'
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import { signInWithPopup } from 'firebase/auth'
 import { auth, provider } from '../../utils/Firebase'
 import axios from 'axios'
